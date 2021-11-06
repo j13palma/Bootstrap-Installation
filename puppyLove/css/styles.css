@@ -4,24 +4,69 @@ body {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
 }
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
 i {
   margin: 5px;
+}
+
+.navbar {
+  padding-top: 0.5rem;
 }
 
 .navbar-brand {
   font-size: 2rem;
 }
 
-#title-container {
+.nav-item {
+  padding: 0 1rem;
+}
+
+.title-container {
   padding: 3% 15%;
+}
+
+.download-btn {
+  margin: 5% 3% 0 0;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
 }
 
 #title {
   background-color: #ff4c68;
-  padding-top: 55px;
   color: #fff;
+  padding-top: 55px;
+}
+
+#features {
+  margin: 5px auto;
+  width: 65%;
+  padding: 7% 3%;
 }
