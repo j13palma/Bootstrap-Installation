@@ -1,22 +1,24 @@
 body {
   font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
 }
+
 h2 {
   font-size: 3rem;
-  font-weight: bold;
   line-height: 1.5;
 }
 
 h3 {
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 p {
@@ -25,6 +27,12 @@ p {
 
 i {
   margin: 5px;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 .navbar {
@@ -64,14 +72,11 @@ i {
   color: #ff4c68;
 }
 
-.feature-box {
-  text-align: center;
-}
-
 #title {
   background-color: #ff4c68;
   color: #fff;
   padding: 55px 0 100px;
+  text-align: start;
 }
 
 #features {
@@ -83,13 +88,11 @@ i {
 #testimonials {
   background-color: #ef8172;
   color: #fff;
-  text-align: center;
 }
 
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .carousel-item {
@@ -109,7 +112,6 @@ i {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
@@ -124,12 +126,10 @@ i {
   background-color: #ff4c68;
   color: #fff;
   padding: 7% 15%;
-  text-align: center;
 }
 
 #footer {
   padding: 3% 15%;
-  text-align: center;
 }
 
 .social {
